@@ -9,17 +9,124 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.project__link{
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
+}
+
+.header__logo {
+  display: block;
+  height: 32px;
+  width: 228px;
+}
+
+.header__logo_place_header {
+  background-image: url("../images/logo_place_header.svg");
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__title {
+  display: block;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+  align-self: center;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  display: block;
+  position: absolute;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  left: 64px;
+  bottom: 30px;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link::after{
+  content: " \2192";
+}
+
+.main__illustration{
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__title {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24x;
+  font-weight: normal;
+}
+
+.two-columns__span {
+  line-height: 34px;
+  font-size: 24x;
+  font-weight: 700;
 }
 
 /* и элемента с модификатором вида ключ-значение */
