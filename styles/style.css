@@ -200,7 +200,8 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
-  padding-top:100px;box-sizing: border-box;
+  padding-top:100px;
+  box-sizing: border-box;
 }
 
 .feynman__title {
