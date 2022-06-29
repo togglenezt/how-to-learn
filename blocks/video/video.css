@@ -1,0 +1,8 @@
+/* секция video*/
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}

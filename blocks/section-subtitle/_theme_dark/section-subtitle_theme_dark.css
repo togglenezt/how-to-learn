@@ -1,0 +1,5 @@
+/* модификатор для подзаголовков в секции kaufman */
+.section-subtitle_theme_dark {
+    color: white;
+    z-index: 2;
+  }
