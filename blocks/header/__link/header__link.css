@@ -2,11 +2,7 @@
     text-decoration: none;
     color: #2f80ed;
     opacity: 1;
-    transition: opacity 1s linear;
-  }
-  
-  .header__link::after {
-    content: " \2192";
+    transition: opacity 0.5s linear;
   }
   
   .header__link:hover {

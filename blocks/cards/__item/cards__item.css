@@ -7,6 +7,6 @@
     width: 240px;
   }
   
-  .cards__item.cards__item:nth-child(3n+1) {
+.cards__item:nth-child(3n+1) {
     margin-left: 0;
   }
