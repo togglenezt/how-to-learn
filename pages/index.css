@@ -7,8 +7,8 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__illustration/main-illustration.css);
-@import url(../blocks/header/__square/__square-pic.css);
+@import url(../blocks/header/__main-illustration/main-illustration.css);
+@import url(../blocks/header/__square-pic/square-pic.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
